@@ -1,0 +1,21 @@
+header {
+	background-color: #BDDB63;
+	color: #29335C;
+	font-family: 'Parisienne', cursive;
+}
+
+#bio {
+	background-color: #F0CEA0;
+}
+
+#image {
+	height: 520px;
+
+}
+
+#resume {
+	background-color: #B9D0C9;
+	color: #29335C;
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+}

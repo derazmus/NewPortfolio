@@ -11,20 +11,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<!--google font -->
 	<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
 </head>
-
-<header>
-<!--header-->
-<div class = "container">
-	<div class = "row">
-		<div class = "col-lg-6">
-			<h2 id = "initals"><strong>Denise Appler Erazmus</strong></h2>
-		</div>
-
-		<div class = "col-lg-6">
-			<h2><strong> Portfolio| Resume | Blog | Contact </strong></h2>
-		</div>
-</header>
 
 <body>
 <!-- image and about me -->
@@ -35,21 +23,32 @@
 			</div>
 
 			<div class = "col">
-				<br>
-				<p> Hi ya-- My name is Denise Appler Erazmus, I am a full stack web developer, Wife, Mom, Curler and life long learner. </p>
+				<p> Hi there</p>
+				<p> My name is Denise Appler Erazmus. I am a full stack web developer, Wife, Mom, curler and life long learner. </p>
+				<p>I entered the world of web development after a 15 year career in the insurance industry. I am a graduate of Northwestern School of Professional Studies Coding Bootcamp. It was at Northwestern where I learn full-stack web development and the art of creating web sites to meet the needs of my clients. My education and background uniquely qualify me to provide not only a creative and well developed website but also to effectively communicate your ideas to your aimed market and client.</p>
+				<p>When I am not enaged in web devlopement, I can be found creating worlds of imagination with my son or developing a new strategy with my husband on the curling sheet. Yes, curling, the game with the rocks on ice!</p>
 
-				<p>I entered the world of web development after a 15 year career in the insurance industry. I am a graduate of Northwestern School of Professional Studies Coding Bootcamp. It was at Northwestern where I learn full-stack web development and the art of creating web sites to meet the needs of my clients. My education and background uniquely qualify me to provide not only a creative and well developed web site but also to effectively communicate your ideas to your aimed market and client.</p>
+				<div class = "row" id="bioButtons">
+					<button type="button" class="btn btn-secondary btn-block">Portfolio</button>
 
-				<p>When I am not creating and developing websites and applications, I can be found creating worlds of imagination with my son or developing a new strategy with my husband on the curling sheet. Yes, curling, the game with the rocks on ice!</p>
+					<button type="button" class="btn btn-secondary btn-block">Resume/Skills</button>
+
+					<button type="button" class="btn btn-secondary btn-block">Blog</button>
+
+					<button type="button" class="btn btn-secondary btn-block"> Let's chat!</button>
+				</div>
 			</div>
 		</div>
-</div>
+
+		<div class = "row justify-content-lg-center" id = "name">
+			<h1> DENISE APPLER ERAZMUS </h1>
+		</div>
 <!-- portfolio-->
 
 <div class="card-deck" id= "portfolio">
-  <div class="card" id = "portfolio1">
-    <img class="card-img-top" src="http://4.bp.blogspot.com/_xOLjKos6g8Y/TOzwq3WXAvI/AAAAAAAAGns/4ANz-YmId6M/s400/Jem_by_NickDraw.jpg" alt="JEM collector">
-    <div class="card-body" id= "portfolioButtons">
+  <div class="card card-inverse" id = "portfolio1">
+    <img class="card-img" src="http://4.bp.blogspot.com/_xOLjKos6g8Y/TOzwq3WXAvI/AAAAAAAAGns/4ANz-YmId6M/s400/Jem_by_NickDraw.jpg" alt="JEM collector">
+    <div class="card-img-overl" id= "portfolioButtons">
     	<h5 class="card-title">JEM Collector</h5>
       <p class="card-text">Uses CSS/HTML, Javascript, jQuery, timers for audio, generates random number.</p>
      <button type="button" class="btn">Live</button>
@@ -77,13 +76,9 @@
     </div>
 </div>
 
-<div class = "card-deck" id= "fontBlock">
-<div class="card bg-primary text-white text-center p-3">
-    <blockquote>
-      <p>portfolio</p>
-    </blockquote>
-  </div>
-</div>
+<div class = "row justify-content-lg-center" id = "name">
+			<h1> PORTFOLIO </h1>
+		</div>
 
 <div class="card-deck" id = "portfolio">
   <div class="card" id = "portfolio4">
@@ -96,7 +91,7 @@
     </div>
    </div>
    <div class="card" id = "portfolio5">
-    <img class="card-img-top" src="assets/images/hangman.jpg" alt="Card image cap">
+    <img class="card-img-top" src="assets/images/hangman.png" alt="Card image cap">
        <div class="card-body" id= "portfolioButtons">
        	<h5 class="card-title">Constructors Hangman</h5>
       <p class="card-text">Uses javascript, jQuery, node.js. NPM packages used: Inquirer and Prompt.</p>
@@ -119,13 +114,9 @@
 
 <!-- resume -->
 
-<div class = "card-deck" id= "fontBlock">
-<div class="card bg-primary text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p>Resume</p>
-    </blockquote>
-  </div>
-</div>
+<div class = "row justify-content-lg-center" id = "name">
+			<h1> RESUME/SKILLS </h1>
+		</div>
 
 <div class = "container-float" >
 		<!-- <div class = "row" id = "resume">
@@ -178,23 +169,24 @@
 
 <!-- blog -->
 
-<div class = "card-deck" id= "fontBlock">
-<div class="card bg-primary text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p>Blog</p>
-    </blockquote>
-  </div>
+<div class = "row justify-content-lg-center" id = "name">
+			<h1> BLOG </h1>
+		</div>
+
+<div class = "container">
+	<div class = "row justify-content-lg-center">
+		<div class = "col-lg-auto">
+    <img id = "imageConstruction" src="assets/images/underconstruction.jpg">
+    	</div>
+    </div>
 </div>
+
 
 <!--contact -->
 
-<div class = "card-deck" id= "fontBlock">
-<div class="card bg-primary text-white text-center p-3">
-    <blockquote class="blockquote mb-0">
-      <p>Let's Chat!!</p>
-    </blockquote>
-  </div>
-</div>
+<div class = "row justify-content-lg-center" id = "name">
+			<h1> Let's Chat!! </h1>
+		</div>
 
 	
 </body>

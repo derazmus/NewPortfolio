@@ -1,15 +1,23 @@
-header {
+#name {
 	background-color: #BDDB63;
 	color: #29335C;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Fredoka One', cursive;
 }
 
 #bio {
 	background-color: #F0CEA0;
+	font-family: 'Fredoka One', cursive;
+}
+
+#bioButtons {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-color:#29335C;
 }
 
 #image {
-	height: 750px;
+	
+	height: 700px;
 
 }
 /*portfolio*/
@@ -20,11 +28,13 @@ header {
 #portfolioButtons{
 	text-align: center;
 	background-color: #29335C;
+	font-family: 'Fredoka One', cursive;
 }
 
 #portfolio{
 	color: #B9D0C9;
 	background-color: #F0CEA0;
+	font-family: 'Fredoka One', cursive;
 }
 
 /*grey hover*/
@@ -73,31 +83,39 @@ header {
 #resume {
 	background-color: #B9D0C9;
 	color: #29335C;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Fredoka One', cursive;
 	text-align: center;
 }
 
 #education {
 	background-color: #B9D0C9;
 	color: #29335C;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Fredoka One', cursive;
 	font-size: 25px;
 }
 
 #skills {
 	background-color: #B9D0C9;
 	color: #29335C;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Fredoka One', cursive;
 	text-align: center;
 }
 
 #fontBlock {
 	background-color: #BDDB63;
 	color: #29335C;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Fredoka One', cursive;
 }
 
 /* unordered list education*/
 ul {
 	list-style-type: none;
 }
+
+/*blog under construction*/
+#imageConstruction {
+	width: 750px;
+	justify-content: center;
+
+}
+

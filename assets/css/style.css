@@ -9,8 +9,65 @@ header {
 }
 
 #image {
-	height: 520px;
+	height: 750px;
 
+}
+/*portfolio*/
+
+.card-img-top{
+	height: 60%;
+}
+#portfolioButtons{
+	text-align: center;
+	background-color: #29335C;
+}
+
+#portfolio{
+	color: #B9D0C9;
+	background-color: #F0CEA0;
+}
+
+/*grey hover*/
+#portfolio1:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#portfolio2:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#portfolio3:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#portfolio4:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#portfolio5:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#portfolio6:hover {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 #resume {
@@ -18,4 +75,29 @@ header {
 	color: #29335C;
 	font-family: 'Parisienne', cursive;
 	text-align: center;
+}
+
+#education {
+	background-color: #B9D0C9;
+	color: #29335C;
+	font-family: 'Parisienne', cursive;
+	font-size: 25px;
+}
+
+#skills {
+	background-color: #B9D0C9;
+	color: #29335C;
+	font-family: 'Parisienne', cursive;
+	text-align: center;
+}
+
+#fontBlock {
+	background-color: #BDDB63;
+	color: #29335C;
+	font-family: 'Parisienne', cursive;
+}
+
+/* unordered list education*/
+ul {
+	list-style-type: none;
 }

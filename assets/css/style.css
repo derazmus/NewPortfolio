@@ -1,3 +1,5 @@
+/* intro and bio*/
+
 #name {
 	background-color: #BDDB63;
 	color: #29335C;
@@ -7,6 +9,7 @@
 #bio {
 	background-color: #F0CEA0;
 	font-family: 'Fredoka One', cursive;
+	color: #29335C;
 }
 
 #bioButtons {
@@ -19,6 +22,15 @@
 	
 	height: 700px;
 
+}
+
+button.btn.btn-secondary.btn-block{
+	color: #29335C;
+	background-color: #BDDB63;
+}
+
+button.btn.btn-secondary.btn-block:hover{
+	background-color: grey;
 }
 /*portfolio*/
 

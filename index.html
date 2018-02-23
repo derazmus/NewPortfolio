@@ -24,18 +24,19 @@
 
 			<div class = "col">
 				<p> Hi there</p>
-				<p> My name is Denise Appler Erazmus. I am a full stack web developer, Wife, Mom, curler and life long learner. </p>
-				<p>I entered the world of web development after a 15 year career in the insurance industry. I am a graduate of Northwestern School of Professional Studies Coding Bootcamp. It was at Northwestern where I learn full-stack web development and the art of creating web sites to meet the needs of my clients. My education and background uniquely qualify me to provide not only a creative and well developed website but also to effectively communicate your ideas to your aimed market and client.</p>
-				<p>When I am not enaged in web devlopement, I can be found creating worlds of imagination with my son or developing a new strategy with my husband on the curling sheet. Yes, curling, the game with the rocks on ice!</p>
+				<p> My name is Denise Appler Erazmus. I am a fullstack web developer, wife, mom and curler. </p>
+				<p>I entered the world of web development after a 15 year career in the insurance industry. I am a graduate of Northwestern School of Professional Studies Coding Bootcamp. It was at Northwestern where I learn fullstack web development and the art of creating web sites to meet the needs of a client. My education and background uniquely qualify me to provide not only a creative and well developed website but also to effectively communicate your ideas to your desired market and client.</p>
+				<p>When I am not enaged in web devlopement, I can be found creating worlds of imagination with my son or developing a new strategy with my husband on the curling sheet.</p>
 
 				<div class = "row" id="bioButtons">
-					<button type="button" class="btn btn-secondary btn-block">Portfolio</button>
+					
+					<a href ="#portfolio"><button type="button" class="btn btn-secondary btn-block">Portfolio</button></a>
 
-					<button type="button" class="btn btn-secondary btn-block">Resume/Skills</button>
+					<a href ="#resume-skills"><button type="button" class="btn btn-secondary btn-block">Resume/Skills</button></a>
 
-					<button type="button" class="btn btn-secondary btn-block">Blog</button>
+					<a href = "#blog"><button type="button" class="btn btn-secondary btn-block">Blog</button></a>
 
-					<button type="button" class="btn btn-secondary btn-block"> Let's chat!</button>
+					<a href = "#chat"><button type="button" class="btn btn-secondary btn-block"> Let's chat!</button></a>
 				</div>
 			</div>
 		</div>
@@ -45,7 +46,7 @@
 		</div>
 <!-- portfolio-->
 
-<div class="card-deck" id= "portfolio">
+<section id = "portfolio"><div class="card-deck" id= "portfolio">
   <div class="card card-inverse" id = "portfolio1">
     <img class="card-img" src="http://4.bp.blogspot.com/_xOLjKos6g8Y/TOzwq3WXAvI/AAAAAAAAGns/4ANz-YmId6M/s400/Jem_by_NickDraw.jpg" alt="JEM collector">
     <div class="card-img-overl" id= "portfolioButtons">
@@ -110,11 +111,12 @@
    		 </div>
     </div>
 </div>
+</section><!--portfolio ends-->
 
 
 <!-- resume -->
 
-<div class = "row justify-content-lg-center" id = "name">
+<section id = "resume-skills"><div class = "row justify-content-lg-center" id = "name">
 			<h1> RESUME/SKILLS </h1>
 		</div>
 
@@ -154,22 +156,75 @@
 			</div>
 		</div>
 
-		<div class = "row" id = skills>
-			<div class = "col">
-				<br>
-				<h2><strong> Skills </strong><h2>
-					<ul>
-						<li> HTML5/CSS</li>
-						<li> Bootstrap </li>
-						<li> Frame Works: <li>
-							<i>
-			</div>
-		</div>
+		  <div class="container-fluid">
+            <div class="row bg-black">
+                <div class="col text-center">
+                    <img src="assets/images/svg/logo.svg" alt="" class="img-fluid row-separator">
+                </div>
+            </div>
+        </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0 mb-5 mt-5">
+                        <div class="card-deck m-0">
+                            <div class="card card-skills m-2">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center text-aquamarine">Front-end Skills</h4>
+                                    <div class="text-center">
+                                        <p class="card-text">
+                                            <a>HTML</a><br>
+                                            <a>CSS</a><br>
+                                            <a>JavaScript</a><br>
+                                            <a>jQuery</a><br>
+                                            <a>Ajax</a><br>
+                                            <a>Bootstrap</a><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-skills m-2">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center text-coral-red">Backend Skills</h4>
+                                    <div class="text-center">
+                                        <p class="card-text">
+     										<a>Express JS </a><br>
+                                            <a>Node JS</a><br>
+                                            <a>MySQL</a><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-skills m-2">
+                                <div class="card-block">
+                                    <h4 class="card-title text-center text-blue">Other Skills</h4>
+                                    <div class="text-center">
+                                        <p class="card-text">
+                                            <a>GitHub</a><br>
+                                            <a>Sublime</a><br>
+                                            <a>Communication</a><br>
+                                             <a>Clean code and documentation</a><br>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                    </div>
+                   
+                </div>
+            </div>
+            
+        </section>
+
 </div>
+</section><!--resume.skills end-->
 
 <!-- blog -->
 
-<div class = "row justify-content-lg-center" id = "name">
+<Section id = "blog"><div class = "row justify-content-lg-center" id = "name">
 			<h1> BLOG </h1>
 		</div>
 
@@ -180,13 +235,14 @@
     	</div>
     </div>
 </div>
+</Section><!--blog ends-->
 
 
 <!--contact -->
-
-<div class = "row justify-content-lg-center" id = "name">
+<Section id = "chat"><div class = "row justify-content-lg-center" id = "name"></a>
 			<h1> Let's Chat!! </h1>
 		</div>
+</Section><!--section ends-->
 
 	
 </body>

@@ -138,3 +138,9 @@ ul {
 
 }
 
+/* chat*/
+#chat {
+	background-color: #BDDB63;
+	color: #29335C;
+	font-family: 'Fredoka One', cursive;
+}

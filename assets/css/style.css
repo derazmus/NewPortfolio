@@ -16,6 +16,7 @@
 	text-align: center;
 	font-family: 'Fredoka One', cursive;
 	font-color:#29335C;
+	display: block;
 }
 
 #image {
@@ -112,6 +113,12 @@ button.btn.btn-secondary.btn-block:hover{
 	font-family: 'Fredoka One', cursive;
 	text-align: center;
 }
+
+/*skills cards*/
+#card card-skills m-2 {
+	background-color: #BDDB63;
+}
+
 
 #fontBlock {
 	background-color: #BDDB63;
